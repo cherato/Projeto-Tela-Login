@@ -19,7 +19,8 @@ html, body {
 
 main {
     margin: auto;
-    border: 1px solid black;
+    border: none;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.527);
     border-radius: 20px;
     max-width: 90vw;
 }
@@ -56,15 +57,15 @@ div.divform {
 
 img.imgicon {
     display: inline-block;
-    width: 35px;
-    height: 35px;
+    width: 30px;
+    height: 30x;
     margin: 0px 10px;
     vertical-align: middle;
 }
 
 input.inputform {
     display: inline-block;
-    width: 50vw;
+    width: 50%;
     height: 30px;
     border: none;
     border-radius: 6px;
