@@ -78,6 +78,7 @@ input.inputform:focus {
 }
 
 input.btnform {
+    background-color: white;
     color: darkcyan;
     font-weight: 600;
     font-size: 1em;
