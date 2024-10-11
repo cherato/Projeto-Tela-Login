@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+/* ----- Telas de Tablets ------*/
+@media screen and (min-width: 481px) {
+    body {
+        background-image: linear-gradient(to bottom, darkcyan, white); 
+        margin: auto;
+    }
+
+}
+
+
+/* ------ Telas desktops e maiores -------*/
+
+@media screen and (min-width: 769px) {
+    body {
+        background-image: linear-gradient(to bottom, darkcyan, white); 
+        margin: auto;
+    }
+
+}
