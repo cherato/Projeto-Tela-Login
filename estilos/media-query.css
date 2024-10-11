@@ -26,9 +26,9 @@
 }
 
 
-/* ------ Telas desktops e maiores -------*/
+/* ------ Telas desktops -------*/
 
-@media screen and (min-width: 993px) {
+@media screen and (min-width: 993px) and (max-width: 1600px) {
 
     main {
         background-image: linear-gradient(to bottom, darkcyan, white);
@@ -48,5 +48,49 @@
         float: left;
         width: 50%;
     }
-
+    main section div h1 {
+        font-size: 2em;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    main section p {
+        font-size: 1.1em;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
 }
+
+/* ------ Telas  maiores -------*/
+
+@media screen and (min-width: 1601px) {
+
+    main {
+        background-image: linear-gradient(to bottom, darkcyan, white);
+    }
+
+    section#login {
+        width: 1200px;
+    }
+
+    div#imagem {
+        float: right;
+        width: 50%;
+        height: 100%;
+    }
+
+    div#formulario {
+        float: left;
+        width: 50%;
+    }
+    main section div h1 {
+        font-size: 2.1em;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    main section p {
+        font-size: 1.2em;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
