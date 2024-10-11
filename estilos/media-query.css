@@ -1,10 +1,26 @@
 @charset "UTF-8";
 
 /* ----- Telas de Tablets ------*/
-@media screen and (min-width: 481px) {
-    body {
-        background-image: linear-gradient(to bottom, darkcyan, white); 
-        margin: auto;
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+
+    main {
+        background-image: linear-gradient(to bottom, darkcyan, white);
+    }
+
+    section#login {
+        width: 90vw;
+    }
+
+    div#imagem {
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+
+    div#formulario {
+        float: right;
+        width: 70%;
     }
 
 }
@@ -12,10 +28,27 @@
 
 /* ------ Telas desktops e maiores -------*/
 
-@media screen and (min-width: 769px) {
-    body {
-        background-image: linear-gradient(to bottom, darkcyan, white); 
-        margin: auto;
+@media screen and (min-width: 993px) {
+
+    main {
+        background-image: linear-gradient(to bottom, darkcyan, white);
     }
+
+    section#login {
+        width: 900px;
+    }
+
+    div#imagem {
+        float: right;
+        width: 50%;
+        height: 100%;
+    }
+
+    div#formulario {
+        float: left;
+        width: 50%;
+    }
+
+}
 
 }
