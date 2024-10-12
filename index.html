@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto Tela de Login</title>
+    <!--link para o https://fonts.google.com/icones --->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:FILL@1">
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/media-query.css">
 </head>
@@ -17,15 +19,17 @@
                 <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p> 
                 <form action="login.php" method="post">
                     <div class="divform">
-                        <label for="ilogin"><img class="imgicon" src="imagens/person.png" alt="Icone Pessoa"></label>
+                        <i class="material-symbols-outlined">person</i>
+                        <label for="ilogin">Login</label>
                         <input id="ilogin" class="inputform" type="email" placeholder="seu e-mail" autocomplete="username" maxlength="30" required>
                     </div>
                     <div class="divform">
-                        <label for="isenha"><img class="imgicon" src="imagens/key.png" alt="Icone Chave"></label>
+                        <i class="material-symbols-outlined">key</i>
+                        <label for="isenha">Senha</label>
                         <input id="isenha" class="inputform" type="password" placeholder="sua senha" autocomplete="current-password" required>
                     </div>
                     <input class="btnform" id="btnentrar" type="submit" value="Entrar">
-                    <input class="btnform" id="btnrecsenha" type="submit" value="Esqueci a senha">
+                    <input class="btnform" id="btnrecsenha" type="button" value="Esqueci a senha">
                 </form>
             </div>
         </section>
